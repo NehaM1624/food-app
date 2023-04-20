@@ -1,0 +1,33 @@
+.btn{
+    color: white;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 2px 12px #888888;
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.gridItem{
+    cursor: pointer;
+}
+
+.gridItem:active{
+background-color: aqua;
+}
+
+.popup{
+    
+   
+}
+
+.popup2{
+    display: flex;
+}
